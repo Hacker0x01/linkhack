@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.7.4'
+gem 'rails', '~> 6.1.7.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.6'
 # Use SCSS for stylesheets
@@ -18,6 +18,7 @@ gem 'validate_url'
 
 gem 'webpacker', '~> 5.4.4'
 
+gem 'rack', '~> 2.2.8.1'
 gem 'rack-cors', '~> 1.1.0', require: 'rack/cors'
 
 # Use jquery as the JavaScript library
