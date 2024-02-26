@@ -15,7 +15,7 @@ class Link < ActiveRecord::Base
   def self.levenshtein_distances(query)
     links = where(type: nil)
     links.map do |link|
-      OpenStruct.new link: link, distance: Levenshtein.distance(link.shortlink, query)
+      OpenStruct.new link: link, distance: Text::Levenshtein.distance(link.shortlink, query)
     end
   end
 
