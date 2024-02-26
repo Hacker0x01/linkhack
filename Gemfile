@@ -33,6 +33,7 @@ gem 'mini_racer', '~> 0.6.3'
 gem 'will_paginate'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'text'
 
 gem 'puma', '~> 6.1'
 gem 'listen', '~> 3.8'
