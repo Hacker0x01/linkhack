@@ -1,4 +1,4 @@
-FROM ruby:3.2.1-bullseye
+FROM ruby:3.2.4-bullseye
 
 RUN apt-get update -qq && apt-get install -y build-essential apt-utils libpq-dev nodejs
 WORKDIR /app
