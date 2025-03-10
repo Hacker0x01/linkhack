@@ -13,7 +13,9 @@ class ApplicationController < ActionController::Base
       relevant_links = Link
         .levenshtein_distances(short)
         .sort_by(&:distance)
-      link = relevant_links.first.link if relevant_links.first.distance < 2
+      if relevant_links.first.present? && relevant_links.first.distance < 2
+        link = relevant_links.first.link
+      end
     end
 
     if link.present?

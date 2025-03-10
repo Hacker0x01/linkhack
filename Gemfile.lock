@@ -89,6 +89,10 @@ GEM
       activesupport (>= 6.1)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
+    importmap-rails (2.1.0)
+      actionpack (>= 6.0.0)
+      activesupport (>= 6.0.0)
+      railties (>= 6.0.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
     jquery-rails (4.4.0)
@@ -141,8 +145,6 @@ GEM
     rack (2.2.8.1)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
-    rack-proxy (0.7.6)
-      rack
     rack-test (2.1.0)
       rack (>= 1.3)
     rails (6.1.7.7)
@@ -203,7 +205,6 @@ GEM
       tilt
     sdoc (2.6.1)
       rdoc (>= 5.0)
-    semantic_range (3.0.0)
     spring (2.1.1)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
@@ -232,11 +233,6 @@ GEM
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
       railties (>= 5.0)
-    webpacker (5.4.4)
-      activesupport (>= 5.2)
-      rack-proxy (>= 0.6.1)
-      railties (>= 5.2)
-      semantic_range (>= 2.3.0)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -256,6 +252,7 @@ DEPENDENCIES
   bootstrap-sass
   byebug
   coffee-rails (~> 5.0.0)
+  importmap-rails
   jbuilder (~> 2.0)
   jquery-rails (~> 4.4.0)
   listen (~> 3.8)
@@ -273,7 +270,6 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   validate_url
   web-console (~> 3.7.0)
-  webpacker (~> 5.4.4)
   will_paginate
 
 BUNDLED WITH

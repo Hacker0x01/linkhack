@@ -16,7 +16,7 @@ gem 'coffee-rails', '~> 5.0.0'
 # Add URL validation
 gem 'validate_url'
 
-gem 'webpacker', '~> 5.4.4'
+gem 'importmap-rails'
 
 gem 'rack', '~> 2.2.8.1'
 gem 'rack-cors', '~> 1.1.0', require: 'rack/cors'

@@ -15,12 +15,16 @@ class LinksController < ApplicationController
   def new
     return unless params.key? :link
 
-    @relevant_links = Link
-      .levenshtein_distances(link_params[:shortlink])
-      .sort_by(&:distance)
-      .reject { |link| link.distance > 5}
-      .first(5)
-      .map(&:link)
+    if link_params[:shortlink].present?
+      @relevant_links = Link
+        .levenshtein_distances(link_params[:shortlink])
+        .sort_by(&:distance)
+        .reject { |link| link.distance > 5}
+        .first(5)
+        .map(&:link)
+    else
+      @relevant_links = []
+    end
 
     @link = Link.new(link_params)
   end
@@ -53,10 +57,15 @@ class LinksController < ApplicationController
   private
 
   def load_link
+    params.permit(:id, :link)
     @link = Link.find params[:id]
   end
 
   def link_params
-    params.permit(:url, :shortlink, :argsstr, :description, :type)
+    if params[:link].present?
+      params.require(:link).permit(:url, :shortlink, :argsstr, :description, :type)
+    else
+      params.permit(:url, :shortlink, :argsstr, :description, :type)
+    end
   end
 end
