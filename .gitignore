@@ -21,7 +21,6 @@
 *.pem
 public/assets/*
 vendor/bundle/*
-vendor/javascript/*
 linkhack.pid
 
 /public/packs
