@@ -242,6 +242,7 @@ GEM
 PLATFORMS
   arm64-darwin-22
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-darwin-19
   x86_64-darwin-20
   x86_64-linux
@@ -260,7 +261,7 @@ DEPENDENCIES
   puma (~> 6.1)
   rack (~> 2.2.8.1)
   rack-cors (~> 1.1.0)
-  rails (~> 6.1.7.9)
+  rails (~> 6.1.7.10)
   rspec
   sass-rails (~> 6.0)
   sdoc (~> 2.6)
