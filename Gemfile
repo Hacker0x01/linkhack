@@ -22,7 +22,7 @@ gem 'rack', '~> 2.2.8.1'
 gem 'rack-cors', '~> 1.1.0', require: 'rack/cors'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '~> 4.4.0'
+gem 'jquery-rails', '~> 4.6'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
