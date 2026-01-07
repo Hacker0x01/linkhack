@@ -19,7 +19,7 @@ class ApplicationController < ActionController::Base
     end
 
     if link.present?
-      redirect_to link.url_for fullpath
+      redirect_to link.url_for(fullpath), allow_other_host: true
     else
       redirect_to(
         controller: :links,
