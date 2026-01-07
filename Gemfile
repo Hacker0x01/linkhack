@@ -35,7 +35,7 @@ gem 'will_paginate'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'text'
 
-gem 'puma', '~> 6.1'
+gem 'puma', '~> 6.6'
 gem 'listen', '~> 3.8'
 
 # Use Unicorn as the app server
