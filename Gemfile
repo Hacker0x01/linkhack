@@ -36,6 +36,7 @@ gem 'will_paginate'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'text'
+gem 'rdoc', '>= 6.5.1.1'
 
 gem 'puma', '~> 6.6'
 gem 'listen', '~> 3.8'
