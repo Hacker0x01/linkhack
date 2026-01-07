@@ -30,6 +30,7 @@ gem 'sdoc', '~> 2.6',  group: :doc
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'mini_racer', '~> 0.6.3'
+gem 'nokogiri', '>= 1.18.9'
 gem 'will_paginate'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -166,8 +166,11 @@ GEM
     net-smtp (0.5.1)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.15.2)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.19.0-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.19.0-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.19.0-x86_64-linux-gnu)
       racc (~> 1.4)
     pp (0.6.3)
       prettyprint
@@ -308,6 +311,7 @@ DEPENDENCIES
   jquery-rails (~> 4.6)
   listen (~> 3.8)
   mini_racer (~> 0.6.3)
+  nokogiri (>= 1.18.9)
   puma (~> 6.6)
   rack (~> 2.2.8.1)
   rack-cors (~> 1.1.0)
