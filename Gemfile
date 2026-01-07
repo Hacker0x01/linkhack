@@ -18,7 +18,7 @@ gem 'validate_url'
 
 gem 'importmap-rails'
 
-gem 'rack', '~> 2.2.8.1'
+gem 'rack', '~> 2.2.13'
 gem 'rack-cors', '~> 1.1.0', require: 'rack/cors'
 
 # Use jquery as the JavaScript library
