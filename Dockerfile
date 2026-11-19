@@ -1,4 +1,4 @@
-FROM ruby:3.4.12-trixie
+FROM ruby:3.4.13-trixie
 
 RUN apt-get update -qq && apt-get install -y build-essential apt-utils libpq-dev nodejs
 WORKDIR /app
