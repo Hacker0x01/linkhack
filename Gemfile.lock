@@ -317,7 +317,7 @@ DEPENDENCIES
   mini_racer (~> 0.6.3)
   nokogiri (>= 1.19.5)
   puma (~> 7.2, >= 7.2.4)
-  rack (~> 2.2.25)
+  rack (~> 2.2.26)
   rack-cors (~> 1.1.0)
   rails (~> 7.1)
   rails-html-sanitizer (>= 1.7.2)
@@ -334,4 +334,4 @@ DEPENDENCIES
   will_paginate
 
 BUNDLED WITH
-  4.0.12
+   2.5.17
