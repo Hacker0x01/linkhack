@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.1'
+gem 'rails', '~> 8.0.5', '>= 8.0.5.2'
 gem 'rails-html-sanitizer', '>= 1.7.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 2.10', '>= 2.10.2'
@@ -52,12 +52,12 @@ group :development, :test do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 3.7.0'
+  gem 'web-console', '~> 4.2'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
   gem 'rspec'
 
-  gem 'annotate'
+  gem 'annotaterb'
 end
