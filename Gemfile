@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.1'
-gem 'rails-html-sanitizer', '>= 1.6.1'
+gem 'rails-html-sanitizer', '>= 1.7.2'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 2.3'
+gem 'sqlite3', '~> 2.10', '>= 2.10.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -19,7 +19,7 @@ gem 'validate_url'
 
 gem 'importmap-rails'
 
-gem 'rack', '~> 2.2.13'
+gem 'rack', '~> 2.2.26'
 gem 'rack-cors', '~> 1.1.0', require: 'rack/cors'
 
 # Use jquery as the JavaScript library
@@ -31,14 +31,14 @@ gem 'sdoc', '~> 2.6',  group: :doc
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'mini_racer', '~> 0.6.3'
-gem 'nokogiri', '>= 1.18.9'
+gem 'nokogiri', '>= 1.19.5'
 gem 'will_paginate'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'text'
 gem 'rdoc', '>= 6.5.1.1'
 
-gem 'puma', '~> 6.6'
+gem 'puma', '~> 7.2', '>= 7.2.4'
 gem 'listen', '~> 3.8'
 
 # Use Unicorn as the app server
